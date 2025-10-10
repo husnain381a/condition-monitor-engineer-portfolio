@@ -330,6 +330,7 @@
 .about-paragraph {
   margin-bottom: 24px;
   color: var(--text-secondary);
+  text-align: justify;
 }
 
 .about-stats {
