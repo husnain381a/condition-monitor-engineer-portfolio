@@ -14,11 +14,11 @@ export default function Footer() {
             transition={{ duration: 0.5 }}
           >
             <div className="footer-logo">
-              <Activity size={32} />
+              <Activity size={28} />
               <span>Muhammad Talha</span>
             </div>
             <p className="footer-tagline">
-              Precision monitoring for industrial excellence
+              Precision monitoring for industrial excellence.
             </p>
           </motion.div>
 
@@ -29,47 +29,14 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <h4 className="footer-title">Quick Links</h4>
-            <ul className="footer-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#experience">Experience</a></li>
-            </ul>
-          </motion.div>
-
-          <motion.div
-            className="footer-section"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <h4 className="footer-title">Services</h4>
-            <ul className="footer-links">
-              <li>Vibration Analysis</li>
-              <li>Thermography</li>
-              <li>Plant Reliability</li>
-              <li>Predictive Maintenance</li>
-            </ul>
-          </motion.div>
-
-          <motion.div
-            className="footer-section"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-          >
-            <h4 className="footer-title">Connect</h4>
             <div className="footer-social">
-              <a href="mailto:your.email@example.com" className="social-link">
+              <a href="mailto:muhammadtalha170219@gmail.com" className="social-link" title="Email">
                 <Mail size={20} />
               </a>
-              <a href="tel:+15551234567" className="social-link">
+              <a href="tel:+923016174717" className="social-link" title="Phone">
                 <Phone size={20} />
               </a>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://linkedin.com/in/muhammad-talha-23154a217" target="_blank" rel="noopener noreferrer" className="social-link" title="LinkedIn">
                 <Linkedin size={20} />
               </a>
             </div>

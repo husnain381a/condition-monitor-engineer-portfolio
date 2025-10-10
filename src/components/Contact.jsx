@@ -17,7 +17,7 @@ export default function Contact() {
     { icon: Mail, label: 'Email', value: 'muhammadtalha170219@gmail.com', link: 'mailto:muhammadtalha170219@gmail.com' },
     { icon: Phone, label: 'Phone', value: '+92 (301) 617-4717', link: 'tel:+923016174717' },
     { icon: MapPin, label: 'Location', value: 'Gujranwala, Pakistan', link: null },
-    { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/yourprofile', link: 'https://linkedin.com/in/muhammad-talha-23154a217' },
+    { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/muhammad-talha', link: 'https://linkedin.com/in/muhammad-talha-23154a217' },
   ];
 
   const handleChange = (e) => {

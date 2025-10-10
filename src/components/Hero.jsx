@@ -80,7 +80,7 @@ export default function Hero() {
             <div className="pulse-ring"></div>
             <img
               src="https://res.cloudinary.com/dlkyywyml/image/upload/v1759854424/get_cnuioh.jpg"
-              alt="Professional"
+              alt="Muhammad Talha"
               className="hero-image"
             />
           </div>

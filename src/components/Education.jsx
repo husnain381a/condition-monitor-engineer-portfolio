@@ -23,7 +23,7 @@ export default function Education() {
       description: 'Focused on physics, mathematics, and chemistry to build a strong foundation for engineering studies.'
     },
     {
-      degree: 'O Levels',
+      degree: "O' Levels",
       field: 'Computer Science',
       institution: 'Beaconhouse School System',
       year: '2018',
