@@ -80,9 +80,6 @@ export default function Contact() {
           <motion.form
             className="contact-form"
             onSubmit={handleSubmit}
-            initial={{ opacity: 0, x: 50 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.6, delay: 0.4 }}
           >
             <div className="form-row">
               <div className="form-group">
