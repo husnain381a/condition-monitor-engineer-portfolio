@@ -10,7 +10,7 @@ export default function Education() {
   const education = [
     {
       degree: 'Bachelor of Science',
-      field: 'Mechanical Engineering',
+      field: 'Electrical Engineering Technology',
       institution: 'University of Sialkot',
       year: '2020 - 2024',
       description: 'Specialized in mechanical systems, thermodynamics, and machine design with focus on industrial applications.'
@@ -26,7 +26,7 @@ export default function Education() {
       degree: "O' Levels",
       field: 'Computer Science',
       institution: 'Beaconhouse School System',
-      year: '2018',
+      year: '2016 - 2018',
       description: 'Completed O Levels with a focus on computer science, mathematics, and English literature.'
     },
   ];

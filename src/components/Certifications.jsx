@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
-import { useRef } from 'react';
-import { Award, CheckCircle, BookOpen } from 'lucide-react';
+import { useRef, useState } from 'react';
+import { Award, CheckCircle, BookOpen, X } from 'lucide-react';
 
 export default function Certifications() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [selectedCert, setSelectedCert] = useState(null);
 
   const certifications = [
     {
@@ -48,7 +49,7 @@ export default function Certifications() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               whileHover={{ scale: 1.05, y: -10 }}
             >
-              <div className="certification-image-wrapper">
+              <div className="certification-image-wrapper" onClick={() => setSelectedCert(cert)}>
                 <img src={cert.image} alt={cert.title} className="certification-image" />
                 <div className="certification-type-badge">
                   {cert.type === 'certification' ? <Award size={20} /> : <BookOpen size={20} />}
@@ -68,6 +69,30 @@ export default function Certifications() {
           ))}
         </div>
       </div>
+
+      {selectedCert && (
+        <motion.div
+          className="lightbox"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          onClick={() => setSelectedCert(null)}
+        >
+          <motion.div
+            className="lightbox-content"
+            initial={{ scale: 0.8 }}
+            animate={{ scale: 1 }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="lightbox-close" onClick={() => setSelectedCert(null)}>
+              <X size={32} />
+            </button>
+            <img src={selectedCert.image} alt={selectedCert.title} />
+            
+          </motion.div>
+        </motion.div>
+      )}
     </section>
   );
 }
+

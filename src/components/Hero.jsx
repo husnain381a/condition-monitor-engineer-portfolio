@@ -26,7 +26,7 @@ export default function Hero() {
             transition={{ delay: 0.2 }}
           >
             <Activity size={16} />
-            <span>Condition Monitoring Specialist</span>
+            <span>Condition Monitoring Engineer</span>
           </motion.div>
 
           <motion.h1

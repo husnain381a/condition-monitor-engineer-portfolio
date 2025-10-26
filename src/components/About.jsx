@@ -9,7 +9,7 @@ export default function About() {
 
   const stats = [
     { icon: Target, label: 'Precision', value: '99.9%' },
-    { icon: Award, label: 'Certifications', value: '10+' },
+    { icon: Award, label: 'Certifications', value: '2+' },
     { icon: TrendingUp, label: 'Uptime Improved', value: '35%' },
   ];
 
@@ -33,13 +33,13 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="about-paragraph">
-              I’m Muhammad Talha, a Certified Vibration Analyst (ISO Category II) and Condition Monitoring Engineer with hands-on experience in predictive maintenance, vibration diagnostics, infrared thermography, and reliability engineering. My goal is to help industries achieve maximum equipment uptime by detecting faults early, improving maintenance strategies, and ensuring operational excellence.
+              I’m Muhammad Talha, a Mobius Certified Vibration Analyst ISO Category-II (ID M-173732-01) and Condition Monitoring Engineer with hands-on experience in predictive maintenance, vibration diagnostics, infrared thermography, and reliability engineering. My goal is to help industries achieve maximum equipment uptime by detecting faults early, improving maintenance strategies, and ensuring operational excellence.
             </p>
             <p className="about-paragraph">
-             Over the course of my career, I’ve worked on critical assets including motors, pumps, turbines, compressors, and gearboxes — performing advanced vibration analysis, thermal inspections, and dynamic balancing using tools such as Emerson CSI 2140, AMS Machinery Manager, and FLIR thermal cameras.
+             Over the course of my career, I’ve worked on critical assets including motors, pumps, turbines, compressors, and gearboxes — performing advanced vibration analysis, thermal inspections, and dynamic balancing using tools such as Emerson CSI 2140, AMS Machinery Manager, and FLUKE thermal cameras.
             </p>
             <p className="about-paragraph">
-             Currently, I’m part of the HUBCO Thar Power Plant (via CONEXUS Company), where I lead diagnostics and reliability improvement programs across high-value rotating machinery. My work focuses on reducing unplanned downtime, optimizing maintenance intervals, and supporting decision-making with data-driven insights.
+            Currently, I’m part of the HUBCO Thar Power Plant (via CONEXUS Company), where I serve as the Team Lead of the Condition Monitoring Team at two HUBCO plants, each with a capacity of 330 MW. I lead diagnostics and reliability improvement programs across high-value rotating machinery, focusing on reducing unplanned downtime and supporting data-driven decision-making to enhance plant performance and reliability.
             </p>
             <p className="about-paragraph">
              Previously, I gained foundational experience at Maple Leaf Cement Factory Limited, where I developed strong practical skills in vibration data collection, thermography, and fault detection. Beyond technical expertise, I bring strong leadership, analytical thinking, and collaboration skills, shaped by my background in both engineering and management.

@@ -38,10 +38,10 @@ export default function Experience() {
       location: 'Sialkot, Pakistan',
       period: '2020 - 2023',
       responsibilities: [
-        'Managed operations and sales teams, ensuring excellent client experience',
-        'Strengthened leadership, communication, and data-driven decision-making',
-        'Implemented marketing strategies that boosted sales by 25%',
-        'Handled inventory, budgeting, and vendor relations to optimize profitability'
+        'Managed branch operations, led sales teams, and ensured client satisfaction',
+        'Strengthened leadership, communication, and operational management capabilities',
+        'Enhanced brand engagement and customer relations through strategic initiatives'
+
       ]
     },
   ];
