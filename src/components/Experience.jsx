@@ -33,8 +33,8 @@ export default function Experience() {
       ]
     },
     {
-      title: 'Branch Manager',
-      company: 'Moments Store (University of Sialkot Collaboration)',
+      title: 'Marketing & Management',
+      company: 'Moments Store & University of Sialkot',
       location: 'Sialkot, Pakistan',
       period: '2020 - 2023',
       responsibilities: [

@@ -13,7 +13,7 @@ export default function Education() {
       field: 'Electrical Engineering Technology',
       institution: 'University of Sialkot',
       year: '2020 - 2024',
-      description: 'Specialized in mechanical systems, thermodynamics, and machine design with focus on industrial applications.'
+      description: 'Specialized in electrical systems, circuit design, and power distribution with a focus on industrial applications.'
     },
     {
       degree: 'Intermediate',
