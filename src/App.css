@@ -1119,6 +1119,10 @@
 }
 
 /* Footer Styles */
+.tag{
+  text-decoration: none;
+  color: #00D9FF
+}
 .footer {
   background: var(--dark);
   color: var(--light);

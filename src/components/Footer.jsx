@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { style } from 'framer-motion/client';
 import { Activity, Linkedin, Mail, Phone } from 'lucide-react';
 
 export default function Footer() {
@@ -45,6 +46,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Muhammad Talha. All rights reserved.</p>
+          <p>Developed by <a className='tag' href="https://husnainmazhar.site" target='_blank'>Husnain Mazhar</a></p>
         </div>
       </div>
     </footer>
